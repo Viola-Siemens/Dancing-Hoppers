@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[46,)"
+license="MIT"
+issueTrackerURL="https://github.com/Viola-Siemens/Dancing-Hoppers/issues"
+
+[[mods]]
+modId="dancing_hoppers"
+version="${file.jarVersion}"
+displayName="Dancing Hoppers"
+logoFile="logo.png"
+credits="Hexagram"
+authors="Liu Dongyu, Mnibr"
+description='''
+This mod adds more hoppers for item transportation:
+
+Inverted Hoppers and sided Hoppers, which are able to carry items from other sides besides the top side.
+
+Accelerated Hoppers, which work more frequently than vanilla hoppers.
+'''
+[[dependencies.dancing_hoppers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[46,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dancing_hoppers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20,1.21)"
+    ordering="NONE"
+    side="BOTH"
