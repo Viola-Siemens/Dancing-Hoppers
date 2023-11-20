@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.hexagram2021.dancing_hoppers.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "dancing_hoppers.refmap.json",
+  "minVersion": "0.8",
+  "mixins": [
+    "BlockEntityAccess",
+    "HopperBlockEntityMixin"
+  ]
+}

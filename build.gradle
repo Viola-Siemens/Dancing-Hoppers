@@ -33,7 +33,7 @@ println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty '
 minecraft {
     mappings channel: 'official', version: '1.20'
 
-    // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
 
     enableIdeaPrepareRuns = true
     copyIdeResources = true
@@ -138,6 +138,10 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.20-46.0.14'
     
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    runtimeOnly fg.deobf("mezz.jei:jei-1.20-forge:14.0.0.11")
+    runtimeOnly fg.deobf("curse.maven:jade-324717:4801177")
+    runtimeOnly fg.deobf("curse.maven:canary-665658:4588510")
 }
 
 jar {
