@@ -3,6 +3,7 @@ package com.hexagram2021.dancing_hoppers.common.block.entity;
 import com.hexagram2021.dancing_hoppers.common.register.DHBlockEntities;
 import com.hexagram2021.dancing_hoppers.mixin.BlockEntityAccess;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.world.Container;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
@@ -30,5 +31,10 @@ public class InvertedHopperBlockEntity extends HopperBlockEntity implements IHop
 	@Override @Nullable
 	public Container getSourceContainer(Level level) {
 		return HopperBlockEntity.getContainerAt(level, this.getLevelX(), this.getLevelY() - 1.0D, this.getLevelZ());
+	}
+
+	@Override
+	public Direction getSourceContainerOutputDirection() {
+		return Direction.UP;
 	}
 }

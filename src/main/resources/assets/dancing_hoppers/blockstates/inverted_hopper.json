@@ -1,6 +1,6 @@
 {
   "variants": {
-    "facing=down": {
+    "facing=up": {
       "model": "dancing_hoppers:block/inverted_hopper"
     },
     "facing=east": {
