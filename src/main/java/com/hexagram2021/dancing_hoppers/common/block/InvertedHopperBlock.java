@@ -2,7 +2,7 @@ package com.hexagram2021.dancing_hoppers.common.block;
 
 import com.hexagram2021.dancing_hoppers.common.block.entity.InvertedHopperBlockEntity;
 import com.hexagram2021.dancing_hoppers.common.register.DHBlockEntities;
-import com.hexagram2021.dancing_hoppers.common.register.DHBlockProperties;
+import com.hexagram2021.dancing_hoppers.common.register.DHBlockStateProperties;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -27,7 +27,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import javax.annotation.Nullable;
 
 public class InvertedHopperBlock extends HopperBlock implements IFacing {
-	public static final DirectionProperty FACING = DHBlockProperties.FACING_INVERTED_HOPPER;
+	public static final DirectionProperty FACING = DHBlockStateProperties.FACING_INVERTED_HOPPER;
 
 	private static final VoxelShape TOP = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 6.0D, 16.0D);
 	private static final VoxelShape FUNNEL = Block.box(4.0D, 6.0D, 4.0D, 12.0D, 12.0D, 12.0D);
