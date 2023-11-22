@@ -1,0 +1,79 @@
+{
+  "variants": {
+    "facing=north,outside=forward": {
+      "model": "dancing_hoppers:block/lateral_hopper"
+    },
+    "facing=east,outside=forward": {
+      "model": "dancing_hoppers:block/lateral_hopper",
+      "y": 90
+    },
+    "facing=south,outside=forward": {
+      "model": "dancing_hoppers:block/lateral_hopper",
+      "y": 180
+    },
+    "facing=west,outside=forward": {
+      "model": "dancing_hoppers:block/lateral_hopper",
+      "y": 270
+    },
+    "facing=north,outside=down": {
+      "model": "dancing_hoppers:block/lateral_hopper_down"
+    },
+    "facing=east,outside=down": {
+      "model": "dancing_hoppers:block/lateral_hopper_down",
+      "y": 90
+    },
+    "facing=south,outside=down": {
+      "model": "dancing_hoppers:block/lateral_hopper_down",
+      "y": 180
+    },
+    "facing=west,outside=down": {
+      "model": "dancing_hoppers:block/lateral_hopper_down",
+      "y": 270
+    },
+    "facing=north,outside=up": {
+      "model": "dancing_hoppers:block/lateral_hopper_up"
+    },
+    "facing=east,outside=up": {
+      "model": "dancing_hoppers:block/lateral_hopper_up",
+      "y": 90
+    },
+    "facing=south,outside=up": {
+      "model": "dancing_hoppers:block/lateral_hopper_up",
+      "y": 180
+    },
+    "facing=west,outside=up": {
+      "model": "dancing_hoppers:block/lateral_hopper_up",
+      "y": 270
+    },
+    "facing=north,outside=left": {
+      "model": "dancing_hoppers:block/lateral_hopper_left"
+    },
+    "facing=east,outside=left": {
+      "model": "dancing_hoppers:block/lateral_hopper_left",
+      "y": 90
+    },
+    "facing=south,outside=left": {
+      "model": "dancing_hoppers:block/lateral_hopper_left",
+      "y": 180
+    },
+    "facing=west,outside=left": {
+      "model": "dancing_hoppers:block/lateral_hopper_left",
+      "y": 270
+    },
+    "facing=north,outside=right": {
+      "model": "dancing_hoppers:block/lateral_hopper_right"
+    },
+    "facing=east,outside=right": {
+      "model": "dancing_hoppers:block/lateral_hopper_right",
+      "y": 90
+    },
+    "facing=south,outside=right": {
+      "model": "dancing_hoppers:block/lateral_hopper_right",
+      "y": 180
+    },
+    "facing=west,outside=right": {
+      "model": "dancing_hoppers:block/lateral_hopper_right",
+      "y": 270
+    }
+  }
+}

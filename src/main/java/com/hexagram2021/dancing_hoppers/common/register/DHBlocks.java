@@ -1,7 +1,7 @@
 package com.hexagram2021.dancing_hoppers.common.register;
 
 import com.hexagram2021.dancing_hoppers.common.block.InvertedHopperBlock;
-import com.hexagram2021.dancing_hoppers.common.block.SidedHopperBlock;
+import com.hexagram2021.dancing_hoppers.common.block.LateralHopperBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -18,8 +18,8 @@ public final class DHBlocks {
 	public static final RegistryObject<InvertedHopperBlock> INVERTED_HOPPER = REGISTER.register(
 			"inverted_hopper", () -> new InvertedHopperBlock(BlockBehaviour.Properties.copy(Blocks.HOPPER))
 	);
-	public static final RegistryObject<SidedHopperBlock> SIDED_HOPPER = REGISTER.register(
-			"sided_hopper", () -> new SidedHopperBlock(BlockBehaviour.Properties.copy(Blocks.HOPPER))
+	public static final RegistryObject<LateralHopperBlock> LATERAL_HOPPER = REGISTER.register(
+			"lateral_hopper", () -> new LateralHopperBlock(BlockBehaviour.Properties.copy(Blocks.HOPPER))
 	);
 
 	private DHBlocks() {

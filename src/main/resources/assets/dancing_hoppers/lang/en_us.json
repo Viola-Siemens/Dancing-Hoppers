@@ -1,5 +1,8 @@
 {
   "language": "English",
   "language.code": "en_us",
-  "language.region": "United States"
+  "language.region": "United States",
+
+  "block.dancing_hoppers.inverted_hopper": "Inverted Hopper",
+  "block.dancing_hoppers.lateral_hopper": "Lateral Hopper"
 }

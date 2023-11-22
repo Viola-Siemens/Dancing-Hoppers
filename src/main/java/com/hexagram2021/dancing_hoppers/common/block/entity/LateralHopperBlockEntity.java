@@ -1,7 +1,7 @@
 package com.hexagram2021.dancing_hoppers.common.block.entity;
 
 import com.google.common.collect.Maps;
-import com.hexagram2021.dancing_hoppers.common.block.SidedHopperBlock;
+import com.hexagram2021.dancing_hoppers.common.block.LateralHopperBlock;
 import com.hexagram2021.dancing_hoppers.common.register.DHBlockEntities;
 import com.hexagram2021.dancing_hoppers.mixin.BlockEntityAccess;
 import net.minecraft.Util;
@@ -18,7 +18,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.Map;
 
-public class SidedHopperBlockEntity extends HopperBlockEntity implements IHopperBlockEntity {
+public class LateralHopperBlockEntity extends HopperBlockEntity implements IHopperBlockEntity {
 	public static final Map<Direction, VoxelShape> INSIDES = Util.make(Maps.newEnumMap(Direction.class), map -> {
 		map.put(Direction.NORTH, Block.box(2.0D, 2.0D, 0.0D, 14.0D, 14.0D, 5.0D));
 		map.put(Direction.SOUTH, Block.box(2.0D, 2.0D, 11.0D, 14.0D, 14.0D, 16.0D));
@@ -37,24 +37,24 @@ public class SidedHopperBlockEntity extends HopperBlockEntity implements IHopper
 		}
 	});
 
-	public SidedHopperBlockEntity(BlockPos blockPos, BlockState blockState) {
+	public LateralHopperBlockEntity(BlockPos blockPos, BlockState blockState) {
 		super(blockPos, blockState);
-		((BlockEntityAccess)this).dh_setType(DHBlockEntities.SIDED_HOPPER.get());
+		((BlockEntityAccess)this).dh_setType(DHBlockEntities.LATERAL_HOPPER.get());
 	}
 
 	@Override
 	public VoxelShape getSuckShape() {
-		return SUCKS.get(this.getBlockState().getValue(SidedHopperBlock.HORIZONTAL));
+		return SUCKS.get(this.getBlockState().getValue(LateralHopperBlock.HORIZONTAL));
 	}
 
 	@Override @Nullable
 	public Container getSourceContainer(Level level) {
-		Direction direction = this.getBlockState().getValue(SidedHopperBlock.HORIZONTAL);
+		Direction direction = this.getBlockState().getValue(LateralHopperBlock.HORIZONTAL);
 		return HopperBlockEntity.getContainerAt(level, this.getLevelX() + direction.getStepX(), this.getLevelY(), this.getLevelZ() + direction.getStepZ());
 	}
 
 	@Override
 	public Direction getSourceContainerOutputDirection() {
-		return this.getBlockState().getValue(SidedHopperBlock.HORIZONTAL).getOpposite();
+		return this.getBlockState().getValue(LateralHopperBlock.HORIZONTAL).getOpposite();
 	}
 }

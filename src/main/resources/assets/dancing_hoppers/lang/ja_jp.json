@@ -1,5 +1,8 @@
 {
   "language": "Japanese",
   "language.code": "ja_jp",
-  "language.region": "Japan"
+  "language.region": "Japan",
+
+  "block.dancing_hoppers.inverted_hopper": "逆さまホッパー",
+  "block.dancing_hoppers.lateral_hopper": "側面ホッパー"
 }

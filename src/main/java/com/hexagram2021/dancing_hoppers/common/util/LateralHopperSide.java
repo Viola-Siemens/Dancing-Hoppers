@@ -5,7 +5,7 @@ import net.minecraft.util.StringRepresentable;
 
 import java.util.function.Function;
 
-public enum SidedHopperSide implements StringRepresentable {
+public enum LateralHopperSide implements StringRepresentable {
 	UP("up", direction -> Direction.UP),
 	DOWN("down", direction -> Direction.DOWN),
 	FORWARD("forward", Direction::getOpposite),
@@ -15,7 +15,7 @@ public enum SidedHopperSide implements StringRepresentable {
 	private final String name;
 	private final Function<Direction, Direction> outputFunction;
 
-	SidedHopperSide(String name, Function<Direction, Direction> outputFunction) {
+	LateralHopperSide(String name, Function<Direction, Direction> outputFunction) {
 		this.name = name;
 		this.outputFunction = outputFunction;
 	}
@@ -34,7 +34,7 @@ public enum SidedHopperSide implements StringRepresentable {
 		return this.name;
 	}
 
-	public static SidedHopperSide mirror(SidedHopperSide side) {
+	public static LateralHopperSide mirror(LateralHopperSide side) {
 		return switch (side) {
 			case UP -> UP;
 			case DOWN -> DOWN;
@@ -44,7 +44,7 @@ public enum SidedHopperSide implements StringRepresentable {
 		};
 	}
 
-	public static SidedHopperSide getSide(Direction facing, Direction clicked) {
+	public static LateralHopperSide getSide(Direction facing, Direction clicked) {
 		switch (clicked) {
 			case UP -> {
 				return UP;
