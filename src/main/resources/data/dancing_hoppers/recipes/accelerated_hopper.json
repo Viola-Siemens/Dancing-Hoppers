@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "base": {
+    "item": "minecraft:hopper"
+  },
+  "result": {
+    "item": "dancing_hoppers:accelerated_hopper"
+  },
+  "template": {
+    "item": "dancing_hoppers:hopper_upgrade_smithing_template"
+  }
+}

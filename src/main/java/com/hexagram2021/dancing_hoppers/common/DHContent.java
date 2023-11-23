@@ -8,6 +8,7 @@ public final class DHContent {
 		DHBlocks.init(bus);
 		DHItems.init(bus);
 		DHBlockEntities.init(bus);
+		DHCreativeModeTabs.init(bus);
 	}
 
 	private DHContent() {

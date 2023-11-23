@@ -18,6 +18,12 @@ public final class DHItems {
 	public static final RegistryObject<BlockItem> LATERAL_HOPPER = REGISTER.register(
 			"lateral_hopper", () -> new BlockItem(DHBlocks.LATERAL_HOPPER.get(), new Item.Properties())
 	);
+	public static final RegistryObject<BlockItem> ACCELERATED_HOPPER = REGISTER.register(
+			"accelerated_hopper", () -> new BlockItem(DHBlocks.ACCELERATED_HOPPER.get(), new Item.Properties())
+	);
+	public static final RegistryObject<Item> HOPPER_UPGRADE_SMITHING_TEMPLATE = REGISTER.register(
+			"hopper_upgrade_smithing_template", () -> new Item(new Item.Properties())
+	);
 
 	private DHItems() {
 	}

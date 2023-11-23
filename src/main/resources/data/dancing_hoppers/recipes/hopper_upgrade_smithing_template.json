@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "III",
+    "DHD",
+    " I "
+  ],
+  "result": {
+    "item": "dancing_hoppers:hopper_upgrade_smithing_template"
+  },
+  "show_notification": true
+}

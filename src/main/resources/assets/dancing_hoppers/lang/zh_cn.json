@@ -3,6 +3,10 @@
   "language.code": "zh_cn",
   "language.region": "China",
 
+  "itemGroup.dancing_hoppers": "舞动的漏斗",
+
   "block.dancing_hoppers.inverted_hopper": "倒置漏斗",
-  "block.dancing_hoppers.lateral_hopper": "侧向漏斗"
+  "block.dancing_hoppers.lateral_hopper": "侧向漏斗",
+  "block.dancing_hoppers.accelerated_hopper": "加速漏斗",
+  "block.dancing_hoppers.hopper_upgrade_smithing_template": "漏斗升级模板"
 }

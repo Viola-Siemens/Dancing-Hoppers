@@ -3,6 +3,10 @@
   "language.code": "en_us",
   "language.region": "United States",
 
+  "itemGroup.dancing_hoppers": "Dancing Hoppers",
+
   "block.dancing_hoppers.inverted_hopper": "Inverted Hopper",
-  "block.dancing_hoppers.lateral_hopper": "Lateral Hopper"
+  "block.dancing_hoppers.lateral_hopper": "Lateral Hopper",
+  "block.dancing_hoppers.accelerated_hopper": "Accelerated Hopper",
+  "block.dancing_hoppers.hopper_upgrade_smithing_template": "Hopper Upgrade Smithing Template"
 }
