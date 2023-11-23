@@ -13,9 +13,9 @@ authors="Liu Dongyu, Mnibr"
 description='''
 This mod adds more hoppers for item transportation:
 
-Inverted Hoppers and lateral hoppers, which are able to carry items from other sides besides the top side.
+Inverted hoppers and lateral hoppers, which are able to carry items from other sides besides the top side.
 
-Accelerated Hoppers, which work more frequently than vanilla hoppers.
+Accelerated hoppers, which work more frequently than vanilla hoppers.
 '''
 [[dependencies.dancing_hoppers]]
     modId="forge"

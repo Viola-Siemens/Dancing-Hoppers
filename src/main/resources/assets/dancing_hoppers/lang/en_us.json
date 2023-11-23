@@ -8,5 +8,5 @@
   "block.dancing_hoppers.inverted_hopper": "Inverted Hopper",
   "block.dancing_hoppers.lateral_hopper": "Lateral Hopper",
   "block.dancing_hoppers.accelerated_hopper": "Accelerated Hopper",
-  "block.dancing_hoppers.hopper_upgrade_smithing_template": "Hopper Upgrade Smithing Template"
+  "item.dancing_hoppers.hopper_upgrade_smithing_template": "Hopper Upgrade Smithing Template"
 }
