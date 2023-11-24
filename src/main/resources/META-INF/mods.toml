@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[46,)"
+loaderVersion="[47,)"
 license="MIT"
 issueTrackerURL="https://github.com/Viola-Siemens/Dancing-Hoppers/issues"
 
@@ -20,12 +20,12 @@ Accelerated hoppers, which work more frequently than vanilla hoppers.
 [[dependencies.dancing_hoppers]]
     modId="forge"
     mandatory=true
-    versionRange="[46,)"
+    versionRange="[47,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.dancing_hoppers]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20,1.21)"
+    versionRange="[1.20.1,1.21)"
     ordering="NONE"
     side="BOTH"
