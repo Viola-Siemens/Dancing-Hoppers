@@ -24,7 +24,7 @@ public abstract class VanillaInventoryCodeHooksMixin {
 		throw new UnsupportedOperationException("Replaced by Mixin");
 	}
 
-	@Redirect(method = "extractHook", at = @At(value = "INVOKE", target = "Lnet/minecraftforge/items/VanillaInventoryCodeHooks;getItemHandler(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/entity/Hopper;Lnet/minecraft/core/Direction;)Ljava/util/Optional;"), remap = false)
+	@Redirect(method = "extractHook", at = @At(value = "INVOKE", target = "Lnet/minecraftforge/items/VanillaInventoryCodeHooks;getItemHandler(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/entity/Hopper;Lnet/minecraft/core/Direction;)Ljava/util/Optional;", remap = false), remap = false)
 	private static Optional<Pair<IItemHandler, Object>> replacedGetItemHandler(Level level, Hopper hopper, Direction hopperFacing) {
 		if(hopper instanceof IHopperBlockEntity hopperBlockEntity) {
 			hopperFacing = hopperBlockEntity.getSourceContainerOutputDirection().getOpposite();
@@ -32,7 +32,7 @@ public abstract class VanillaInventoryCodeHooksMixin {
 		return getItemHandler(level, hopper, hopperFacing);
 	}
 
-	@Redirect(method = "insertHook", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/level/block/state/BlockState;getValue(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;"), remap = false)
+	@Redirect(method = "insertHook", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/level/block/state/BlockState;getValue(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;"))
 	private static Comparable<Direction> replacedFacingDirection(BlockState instance, Property<Direction> property) {
 		return instance.getBlock() instanceof IFacing facingBlock ? facingBlock.getFacing(instance) : instance.getValue(property);
 	}
