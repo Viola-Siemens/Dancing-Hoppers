@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=down":  { "model": "dancing_hoppers:block/classification_hopper"                },
+        "facing=north": { "model": "dancing_hoppers:block/classification_hopper_side"           },
+        "facing=south": { "model": "dancing_hoppers:block/classification_hopper_side", "y": 180 },
+        "facing=west":  { "model": "dancing_hoppers:block/classification_hopper_side", "y": 270 },
+        "facing=east":  { "model": "dancing_hoppers:block/classification_hopper_side", "y": 90  }
+    }
+}

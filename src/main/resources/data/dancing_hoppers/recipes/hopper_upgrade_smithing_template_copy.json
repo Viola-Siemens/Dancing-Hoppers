@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": { "item": "minecraft:diamond" },
+    "2": { "item": "dancing_hoppers:hopper_upgrade_smithing_template" },
+    "3": { "item": "minecraft:deepslate" }
+  },
+  "pattern": [
+    "121",
+    "131",
+    "111"
+  ],
+  "result": {
+    "item": "dancing_hoppers:hopper_upgrade_smithing_template",
+    "count": 2
+  },
+  "show_notification": true
+}

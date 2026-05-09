@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": { "item": "minecraft:gold_ingot" },
+    "R": { "item": "minecraft:comparator" }
+  },
+  "pattern": [
+    "GGG",
+    "GRG",
+    "GGG"
+  ],
+  "result": {
+    "item": "dancing_hoppers:gold_forging_smithing_template"
+  },
+  "show_notification": true
+}

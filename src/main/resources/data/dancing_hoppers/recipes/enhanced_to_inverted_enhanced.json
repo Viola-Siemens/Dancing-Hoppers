@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "dancing_hoppers:enhanced_classification_hopper"
+    }
+  ],
+  "result": {
+    "item": "dancing_hoppers:inverted_enhanced_classification_hopper"
+  },
+  "show_notification": true
+}

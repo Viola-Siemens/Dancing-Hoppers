@@ -1,10 +1,12 @@
 {
-  "parent": "dancing_hoppers:block/inverted_hopper",
-  "display": {
-    "head": {
-      "rotation": [ 0, 0, 0 ],
-      "translation": [ 0, 10, 0],
-      "scale":[ 0.9, 0.9, 0.9]
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "dancing_hoppers:item/inverted_hopper_hand"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "dancing_hoppers:item/inverted_hopper_gui"
     }
   }
 }

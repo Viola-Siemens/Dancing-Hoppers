@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "minecraft:item/hopper_hand"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/hopper_gui"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:gold_ingot"
+  },
+  "base": {
+    "item": "dancing_hoppers:lateral_classification_hopper"
+  },
+  "result": {
+    "item": "dancing_hoppers:lateral_enhanced_classification_hopper"
+  },
+  "template": {
+    "item": "dancing_hoppers:gold_forging_smithing_template"
+  }
+}

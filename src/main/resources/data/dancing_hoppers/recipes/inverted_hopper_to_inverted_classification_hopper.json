@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:copper_ingot"
+  },
+  "base": {
+    "item": "dancing_hoppers:inverted_hopper"
+  },
+  "result": {
+    "item": "dancing_hoppers:inverted_classification_hopper"
+  },
+  "template": {
+    "item": "dancing_hoppers:copper_forging_smithing_template"
+  }
+}

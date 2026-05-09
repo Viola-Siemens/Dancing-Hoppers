@@ -8,5 +8,21 @@
   "block.dancing_hoppers.inverted_hopper": "倒置漏斗",
   "block.dancing_hoppers.lateral_hopper": "侧向漏斗",
   "block.dancing_hoppers.accelerated_hopper": "加速漏斗",
-  "item.dancing_hoppers.hopper_upgrade_smithing_template": "漏斗升级模板"
+  "item.dancing_hoppers.hopper_upgrade_smithing_template": "锻造模板",
+  "block.dancing_hoppers.accelerated_inverted_hopper": "倒置加速漏斗",
+  "block.dancing_hoppers.accelerated_lateral_hopper": "侧向加速漏斗",
+  "block.dancing_hoppers.classification_hopper": "分类漏斗",
+  "block.dancing_hoppers.enhanced_classification_hopper": "强化分类漏斗",
+  "block.dancing_hoppers.inverted_classification_hopper": "倒置分类漏斗",
+  "block.dancing_hoppers.inverted_enhanced_classification_hopper": "倒置强化分类漏斗",
+  "block.dancing_hoppers.lateral_classification_hopper": "侧向分类漏斗",
+  "block.dancing_hoppers.lateral_enhanced_classification_hopper": "侧向强化分类漏斗",
+
+  "item.dancing_hoppers.gold_forging_smithing_template": "锻造模板",
+  "item.dancing_hoppers.copper_forging_smithing_template": "锻造模板",
+  "container.dancing_hoppers.classification_hopper": "分类漏斗",
+  "container.dancing_hoppers.enhanced_classification_hopper": "强化分类漏斗",
+  "item.dancing_hoppers.hopper_upgrade_smithing_template.description": "加速漏斗升级",
+  "item.dancing_hoppers.copper_forging_smithing_template.description": "分类漏斗升级",
+  "item.dancing_hoppers.gold_forging_smithing_template.description": "强化分类升级"
 }

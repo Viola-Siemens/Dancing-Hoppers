@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "dancing_hoppers:item/enhanced_classification_hopper_hand"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "dancing_hoppers:item/enhanced_classification_hopper_gui"
+    }
+  }
+}

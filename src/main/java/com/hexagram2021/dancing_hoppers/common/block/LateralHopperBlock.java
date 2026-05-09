@@ -106,7 +106,6 @@ public class LateralHopperBlock extends HopperBlock implements IFacing {
 					9.0D - shiftZ + shapeZ * shapeZ + shapeY * shapeY + 6 * shapeZ
 			);
 		}
-		//assert shiftZ != 0
 		return Block.box(
 				7.0D - shiftX - shapeX * shapeX - shapeY * shapeY + 6 * shapeX,
 				6.0D + 6 * shapeY,
